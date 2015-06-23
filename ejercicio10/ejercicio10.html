@@ -1,0 +1,97 @@
+<html>
+	<head>
+		<title>Ejercicio 10</title>
+	<meta charset="UTF-8" /> 
+	</head>
+	<body>
+		<ol>
+			<li>Hidratos
+				<ol>
+					<li>Cereales
+						<ol>
+							<li>panes</li>
+							<li>arroces</li>
+							<li>pastas</li>
+						</ol>
+					</li>
+					<li>frutas y verduras
+						<ol>
+							<li>Frutas</li>
+							<li>Verduras</li>
+						</ol>
+					</li>
+					<li>legumbres y tubércolos
+						<ol>
+							<li>Legumbres</li>
+							<li>Tubércolos</li>
+							<li>Otras raices</li>
+						</ol>
+					</li>
+				</ol>
+			</li>
+			<li>Proteinas
+				<ol>
+					<li>Carnes y pescados
+						<ol>
+							<li>Carnes rojas</li>
+							<li>Aves y otras carnes blancas</li>
+							<li>Pescados</li>
+							<li>Marisco</li>
+						</ol>
+					</li>
+					<li>Huevos</li>
+					<li>lacteos
+						<ol>
+							<li>leche</li>
+							<li>yogurt</li>
+							<li>queso</li>
+						</ol>
+					</li>
+				</ol>
+			</li>
+			<li>Otros
+				<ol>
+					<li>Grasas
+						<ol>
+							<li>Aceites</li>
+							<li>Otras grasas</li>
+						</ol>
+					</li>
+					<li>Dolces
+						<ol>
+							<li>Azúcares</li>
+							<li>confitura y almíbar</li>
+						</ol>
+					</li>
+				</ol>
+			</li>
+		</ol>
+	</body>
+	<style>
+		ol>li>ol>li>ol>li:nth-child(odd){color: #f00; }
+		ol>li>ol>li>ol>li:nth-child(even){color: #00f;}
+
+		ol>li>ol>li>ol>li{
+			list-style-image: url("ico.png");
+		}
+		ol>li>ol>li{
+			list-style-type: lower-alpha;
+		}
+		ol>li{
+			list-style-type: decimal-leading-zero;
+		}
+		/*body>ol{
+			list-style-type: decimal-leading-zero;
+		}
+		body>ol>ol{
+			list-style-type: lower-alpha;
+		}
+		ol>ol>ol{
+			list-style-image: url("ico.png");
+
+		}
+		ol>ol>ol>:nth-child(odd){color: #f00; }
+		ol>ol>ol>:nth-child(even){color: #00f; }*/
+
+	</style>
+</html>

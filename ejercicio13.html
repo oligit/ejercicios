@@ -1,0 +1,185 @@
+<html>
+	<head>
+		<title>Ejercicio 13</title>
+	</head>
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <script>
+  		$( document ).ready(function() {
+    		$('.row').draggable({containment: "parent"});
+		});
+  </script>
+	<body>
+		<div class="center">
+			<h1>Escala de colores</h1>
+		</div>
+		<div class="center container">
+			<div class="row row-14">14</div>
+			<div class="row row-13">13</div>
+			<div class="row row-12">12</div>
+			<div class="row row-11">11</div>
+			<div class="row row-10">10</div>
+			<div class="row row-9">9</div>
+			<div class="row row-8">8</div>
+			<div class="row row-7">7</div>
+			<div class="row row-6">6</div>
+			<div class="row row-5">5</div>
+			<div class="row row-4">4</div>
+			<div class="row row-3">3</div>
+			<div class="row row-2">2</div>
+			<div class="row row-1">1</div>
+			<div class="row row-0">0</div>
+		</div>
+	</body>
+	<style>
+		@media (max-width: 600px){
+			h1{
+			font-family: calibri;
+			text-align: center;
+			margin: 0 auto;
+			}
+			.center{
+				margin: 0 auto;
+			}
+			.container{
+				border: 1px solid #0048FF;
+				width: 20%;
+				box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.3);
+				color: #fff;
+				min-width: 5%;
+			}
+			.row{
+				width: 100%;
+				height: 5%;
+				text-align: left;
+				border: 1px solid #ccc;
+				box-sizing: border-box;
+				padding-left: 2%;
+				min-height: 20px;
+				cursor: move;
+			}
+			.row-0{
+				background-color: hsl(240, 100%, 50%);
+			}
+			.row-1{
+				background-color: hsl(240, 100%, 55%);
+			}
+			.row-2{
+				background-color: hsl(240, 100%, 60%);
+			}		
+			.row-3{
+				background-color: hsl(240, 100%, 65%);
+			}
+			.row-4{
+				background-color: hsl(240, 100%, 70%);
+			}
+			.row-5{
+				background-color: hsl(240, 100%, 75%);
+			}
+			.row-6{
+				background-color: hsl(240, 100%, 80%);
+			}
+			.row-7{
+				background-color: hsl(150, 100%, 50%);
+			}
+			/*rojo*/
+			.row-8{
+				background-color: hsl(296, 100%, 80%);
+			}
+			.row-9{
+				background-color: hsl(296, 100%, 75%);
+			}
+			.row-10{
+				background-color: hsl(296, 100%, 70%);
+			}
+			.row-11{
+				background-color: hsl(296, 100%, 65%);
+			}
+			.row-12{
+				background-color: hsl(296, 100%, 60%);
+			}
+			.row-13{
+				background-color: hsl(296, 100%, 55%);
+			}
+			.row-14{
+				background-color: hsl(296, 100%, 50%);
+			}
+		}
+		@media (min-width: 600px){
+
+			h1{
+				font-family: calibri;
+				text-align: center;
+				margin: 0 auto;
+			}
+			.center{
+				margin: 0 auto;
+			}
+			.container{
+				border: 1px solid #0048FF;
+				width: 20%;
+				box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.3);
+				color: #fff;
+				min-width: 5%;
+			}
+			.row{
+				width: 100%;
+				height: 5%;
+				text-align: left;
+				border: 1px solid #ccc;
+				box-sizing: border-box;
+				padding-left: 2%;
+				min-height: 20px;
+			}
+			.row-14{
+				background-color: hsl(240, 100%, 50%);
+			}
+			.row-13{
+				background-color: hsl(240, 100%, 55%);
+			}
+			.row-12{
+				background-color: hsl(240, 100%, 60%);
+			}		
+			.row-11{
+				background-color: hsl(240, 100%, 65%);
+			}
+			.row-10{
+				background-color: hsl(240, 100%, 70%);
+			}
+			.row-9{
+				background-color: hsl(240, 100%, 75%);
+			}
+			.row-8{
+				background-color: hsl(240, 100%, 80%);
+			}
+			.row-7{
+				background-color: hsl(150, 100%, 50%);
+			}
+			/*rojo*/
+			.row-6{
+				background-color: hsl(296, 100%, 80%);
+			}
+			.row-5{
+				background-color: hsl(296, 100%, 75%);
+			}
+			.row-4{
+				background-color: hsl(296, 100%, 70%);
+			}
+			.row-3{
+				background-color: hsl(296, 100%, 65%);
+			}
+			.row-2{
+				background-color: hsl(296, 100%, 60%);
+			}
+			.row-1{
+				background-color: hsl(296, 100%, 55%);
+			}
+			.row-0{
+				background-color: hsl(296, 100%, 50%);
+			}
+		}
+
+	</style>
+</html>

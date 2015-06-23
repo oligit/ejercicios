@@ -1,0 +1,71 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Ejercicio 26</title>
+</head>
+<body>
+	<div id="brujeria">
+		
+	</div>
+	<div id="move">
+		
+	</div>
+</body>
+<style>
+	@-webkit-keyframes cambia-color{
+		5%{background-color: #222222;}
+		10%{background-color: #424242;}
+		15%{background-color: #5B5A5A;}
+		20%{background-color: #7C7B7B;}
+		25%{background-color: #A19E9E;}
+		30%{background-color: #CCCBCB;}
+		35%{background-color: #FFF;}
+		40%{background-color: #FFDDDC;}
+		45%{background-color: #FF9797;}
+		50%{background-color: #FF4444;}
+		55%{background-color: #FA1313;}
+
+	}
+	#brujeria{
+		width: 300px;
+		height: 300px;
+		background-color: #000000;
+		float: left;
+		border-radius: 300px;
+		animation-name: cambia-color;
+		animation-iteration-count: infinite;
+		animation-duration: 1s;
+
+	}
+	#move{
+		width: 300px;
+		height: 300px;
+		background-color: #000000;
+		float: left;
+		animation-name: movimiento;
+		animation-duration: 4s;
+		animation-iteration-count: infinite;
+	}
+	@-webkit-keyframes movimiento {
+		0%{}
+		5%{transform: translate(5px, 30px);}
+		10%{transform: translate(500px, -30px);}
+		15%{transform: translate(50px, -30px);}
+		20%{transform: translate(500px, -250px);}
+		25%{transform: translate(5px, -30px);}
+		30%{transform: translate(50px, -300px);}
+		35%{}
+		40%{transform: translate(500px, -30px);}
+		50%{}
+		55%{margin-left: 450px;}
+		60%{}
+		65%{margin-left: 200px;}
+		70%{}
+		75%{margin-left: 33px;}
+		80%{}
+		85%{}
+		100%{}
+
+	}
+</style>
+</html>

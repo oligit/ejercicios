@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ofertas>
+	<oferta>
+		<titulo>Libro de javascript</titulo>
+		<descripcion>Fabuloso Libro de javascript</descripcion>
+		<precio>15€</precio>
+	</oferta>
+	<oferta>
+		<titulo>Libro de php</titulo>
+		<descripcion>Fabuloso libro de php</descripcion>
+		<precio>15€</precio>
+	</oferta>
+	<oferta>
+		<titulo>Libro de sql</titulo>
+		<descripcion>Estupendo libro de sql</descripcion>
+		<precio>14€</precio>
+	</oferta>
+	<oferta>
+		<titulo>CD de angular</titulo>
+		<descripcion>magnifico audiolibro de angularjs, pa petarlo con los colegas xD </descripcion>
+		<precio>12€</precio>
+	</oferta>
+	<oferta>
+		<titulo>Libro de xml</titulo>
+		<descripcion>Un libro de xml bueno bueno</descripcion>
+		<precio>11€</precio>
+	</oferta>
+</ofertas>

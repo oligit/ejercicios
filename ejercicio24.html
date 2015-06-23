@@ -1,0 +1,76 @@
+<html>
+	<head>
+		<title>Ejercicio xx</title>
+	<meta charset="utf-8">
+	</head>
+	<body>
+		<nav class="block">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Productos</a></li>
+				<li><a href="#">Galería</a></li>
+				<li><a href="#">Acerca de</a></li>
+			</ul>
+		</nav>
+		<h1>Menú</h1>
+	</body>
+	<style>
+		h1{
+			margin-top: 50px;
+			font-family: calibri;
+		}
+		nav.block{
+			width: 100%;
+			overflow: auto; /*evitar efecto de los floats*/
+			background-color: #9A9A9A;
+			min-width: 450px;
+			min-height: 50px;
+			max-height: 100px;
+			margin-bottom: 2%;
+			top: 0;
+			left: 0;
+			position: fixed;
+		}
+		nav.block ul {
+			list-style-type: none;
+			padding: 0 5%;
+			
+		}
+		nav.block li{
+			padding: 0 2%;
+			display: block;
+			float: left;
+			border: 1px solid #00AEFF;
+			margin: 0 2%;
+			background-color: rgba(255, 255, 255, 0.5);
+			border-radius: 0px;
+			box-shadow: 0px 5px 5px #000;
+			-webkit-transition: all 1s ease-in-out 0.5s;
+			-moz-transition: all 1s ease-in-out 0.5s;
+			-o-transition: all 1s ease-in-out 0.5s;
+			transition: all 0.8s ease-in-out 0.5s;
+		}
+		nav.block li:hover{
+			border-radius: 15px;
+			border-style: dashed;
+			background-color: #B9F6CC;
+		}
+		nav.block a {
+			font-family: calibri;
+			/*font-size: 20px;*/
+			text-decoration: none;
+			color: #000;
+			-webkit-transition: color 0.3s ease-in-out 0.5s;
+			-moz-transition: color 0.3s ease-in-out 0.5s;
+			-o-transition: color 0.3s ease-in-out 0.5s;
+			transition: color 0.3s ease-in-out 0.5s;
+		}
+		nav.block a:hover{
+			color: #00AEFF;
+		}
+		body{
+			background-color: #A9EBEF;
+			background: linear-gradient(#FF0000, #FFE400, #24FF00);
+		}
+	</style>
+</html>

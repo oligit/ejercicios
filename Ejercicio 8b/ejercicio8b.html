@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <style type="text/css">
+       /* body
+        {
+            background-color: #4af3df;
+        }
+        #main{
+            margin: 0 auto;
+            width: 900px;
+        }
+        
+        .secciones {
+            margin: 25px;
+            width: 800px;
+            background-color: #E2E1CE;
+            padding: 30px;
+            box-shadow: 0px 0px 20px 1px;
+            border-radius: 15px;
+            border-style: dashed;
+            border-color: #480101;
+            border-width: 5px;
+        }
+
+        .Tít_Original {
+            font-size: 30px;
+            color: #510000;
+        }
+
+        .Fecha_Original {
+            color: green;
+            font-size: 20px;
+        }
+
+        .Serie {
+            color: blue;
+            font-size: 20px;
+        }
+
+        .Autor {
+            color: blue;
+            font-size: 20px;
+        }
+
+        .Editorial {
+            color: blue;
+            font-size: 15px;
+        }
+
+        .Fecha_Edicion {
+            color: blue;
+            font-size: 25px;
+        }
+        .address{
+            margin: 0 auto;
+            width: 500px;
+        }
+        div p {
+            color: black !important;
+        }
+        */
+        .secciones{
+            border-bottom: 1px solid #C0C0C0;
+        }
+        *[itemprop="name"]{
+            color: chartreuse;
+            font-size: 16px;
+            font-weight: 800;
+        }
+        *[itemprop^="dateP"]{
+            font-style: italic;
+            font-size: 16px;
+            color: blueviolet;
+        }
+        *[itemprop="parent"]{
+            font-style: italic;
+            font-size: 16px;
+            color: darkred;
+        }
+        *[itemprop="author"]{
+            font-size: 20px;
+            color: coral;
+        }
+        *[itemprop="editor"]{
+            font-style: italic;
+            color: #000;
+        }
+        *[itemprop="dateModified"]{
+            
+        }
+    </style>
+
+
+    <script type="text/javascript">
+
+
+    </script>
+
+</head>
+
+
+<body>
+    <div id="main">
+        <div id="titulos"></div>
+        <div class="secciones" itemscope itemtype="http://schema.org/Book">
+            <p> Libro: <cite class="Tít_Original" itemprop="name">De Pezqueñín A Tiburón (La Especulación Inteligente)</cite></p>
+            <p> Fecha Original: <time class="Fecha_Original" itemprop="datePublished">25 ago 2012</time></p>
+            <p> Serie: <span class="Serie" itemprop="parent"></span></p>
+            <p> Autor: <strong class="Autor" itemprop="author">Alberto Chan Aneiros</strong></p>
+            <p> Editorial: <span class="Editorial" itemprop="editor">Lulu.com</span></p>
+            <p> Fecha de Edición: <time class="Fecha_Edicion" itemprop="dateModified">25 ago 2012</time></p>
+        </div>
+
+        <div class="secciones" itemscope itemtype="http://schema.org/Book">
+            <p> Libro:  <cite class="Tít_Original" itemprop="name">De Pezqueñín A Tiburón (La Especulación Inteligente)</cite></p>
+            <p> Fecha Original: <time class="Fecha_Original" itemprop="datePublished">25 ago 2012</time></p>
+            <p> Serie: <span class="Serie" itemprop="parent"></span></p>
+            <p> Autor: <strong class="Autor" itemprop="author">Alberto Chan Aneiros</strong></p>
+            <p> Editorial: <span class="Editorial" itemprop="editor">Lulu.com</span></p>
+            <p> Fecha de Edición: <time class="Fecha_Edicion" itemprop="dateModified">25 ago 2012</time></p>
+        </div>
+
+        <div data-tamaño="20">20</div>
+
+        <address id="hcard-David-Mendieta-Cantador" class="vcard">
+            <span class="fn n">
+                <span class="given-name">David</span>
+                <span class="additional-name">Mendieta Cantador</span>
+                <span class="family-name"></span>
+            </span>
+            <div class="org">Mi Compañía</div>
+            <a class="email" href="mailto:ddmendieta@gmail.com">ddmendieta@gmail.com</a>
+            <div class="adr">
+                <div class="street-address">Ciruelos</div>
+                <span class="locality">Coslada</span>
+                ,
+                <span class="region">Madrid</span>
+                ,
+                <span class="postal-code">28660</span>
+
+                <span class="country-name">España</span>
+
+            </div>
+            <div class="tel">63701484</div>
+
+        </address>
+
+    </div>
+</body>
+</html>

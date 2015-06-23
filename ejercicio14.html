@@ -1,0 +1,69 @@
+<html>
+<head>
+	<title>Ejercicio 14</title>
+	<meta charset="UTF-8">
+</head>
+<body>
+	<div class="caja">
+		<div class="caja1">caja 1</div>
+		<div class="caja2">caja 2</div>
+		<div class="caja3">caja 3</div>
+		<div class="caja4">caja 4 abajo</div>
+	</div>
+</body>
+	<style>
+		.caja{
+			position: absolute;
+			width: 400px;
+			height: 200px;
+			top: 100px;
+			left: 100px;
+			border: 3px solid #000;
+			/*
+				position: relative;
+				left: 100px;
+				top: 100px;
+				height: 200px;
+				width: 100px;
+			*/
+		}
+		.caja1{
+			position: absolute;
+			width: 50%;
+			height: 200px;
+			background-color: #CD8A15;
+			left: 0; /*da =*/
+			top: 0; /*da =*/
+		}
+		.caja2{
+			position: absolute;
+			left: 50%;
+			width: 50%;
+			height: 200px;
+			background-color: #55E355;
+			/*
+			position: relative;
+			height: 100px;
+			width: 150px;
+			left: 150px;
+			top: -100px;
+			*/
+		}
+		.caja3{
+			position: absolute;
+			top: 50%;
+			left: 75%;
+			width: 50%;
+			height: 200px;
+			background-color: #11D9F1;
+		}
+		.caja4{
+			position: fixed;
+			bottom: 0;
+			width: 100%;
+			left: 0;
+			height: 5%;
+			background-color: #DCDE3B;
+		}
+	</style>
+</html>
